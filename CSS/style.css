@@ -1,0 +1,92 @@
+@font-face{
+    font-family: Poppins ;
+    src: url(../Poppins/Poppins-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section{
+    width: 100%;
+    background-color: #d5d0d0;
+    padding: 35px 0;
+}
+.section .container{
+    width: 700px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.section .container pre{
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+.section .container ol{
+    list-style-type:upper-roman;
+    margin-left: 30px;
+}
+.section .container .list-alphabat{
+    margin: 10px;
+    list-style-type: lower-alpha;
+}
+.section .container .list-num{
+    margin: 10px;
+    list-style-type: decimal;
+}
+.section .container .list-circle{
+    margin: 10px 30px;
+    list-style-type:circle;
+}
+.section .container .list-disc{
+    margin: 10px 30px;
+    list-style-type:disc;
+}
+.section .container span{
+    font-weight: bold;
+
+}
+.section .container .main-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.section .container .main-list  li {
+    margin: 20px 30px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.section .container .nested-list {
+    list-style: none;
+   margin-left: 50px;
+   
+}
+
+.section .container .nested-list li {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.section .container .circle, .nested-circle {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #046104;
+    color: white;
+    text-align: center;
+    line-height: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+}
